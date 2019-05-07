@@ -31,6 +31,7 @@ def word_substituter(string)
 return words.join(" ")
 end
 
+
 def bulk_tweet_shortener(array_of_tweets)
   i = 0 
   while i < array_of_tweets.length
@@ -43,7 +44,7 @@ end
 def selective_tweet_shortener(tweets)
    if tweets.length > 140 
     word_substituter(tweets)
-  else 
+  elsif tweets.length < 130 
     puts "#{tweets}"
 end 
 end 
