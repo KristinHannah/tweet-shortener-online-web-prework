@@ -46,5 +46,7 @@ def selective_tweet_shortener(tweets)
     word_substituter(tweets)
   elsif tweets.length < 130 
     puts "#{tweets}"
+  else 
+    puts Nil 
 end 
 end 
