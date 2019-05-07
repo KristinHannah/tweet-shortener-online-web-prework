@@ -50,3 +50,7 @@ def selective_tweet_shortener(tweets)
       return tweets
 end 
 end 
+
+def shortened_tweet_truncator(tweet)
+ puts "#{tweet[0..137]}..."
+end 
