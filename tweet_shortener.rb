@@ -49,3 +49,4 @@ def selective_tweet_shortener(array_of_tweets)
     word_substituter(tweets)
 end 
 end 
+end 
