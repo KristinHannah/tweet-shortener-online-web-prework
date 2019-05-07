@@ -44,9 +44,9 @@ end
 
 
 def selective_tweet_shortener(tweets)
-    if tweets.length < 140
-       puts "#{tweets}" 
-    elsif tweets.length > 140
+    if tweets.length > 140
     word_substituter(tweets)
+    elsif tweets.length < 140
+       puts "#{tweets}" 
 end 
 end 
